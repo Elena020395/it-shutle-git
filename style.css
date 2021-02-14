@@ -1,9 +1,17 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
 * {
     box-sizing: border-box;
 }
+
 .nav {
     background:  #EEEFF1;
-   
+    display: inline-block;
+	text-align: right;
+    width: 100%;
+	
 }
 .nav-list {
     padding: 0;
@@ -15,18 +23,22 @@
     padding-top: 50px;
     padding-right: 10px;
     padding-bottom: 0%;
+    vertical-align: middle;
  }
  .logo {
+    padding-left: 80px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0%;
+    background:  #EEEFF1;
     display: inline-block;
-    padding-left: 302px;
-    padding-right: 250px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 38px;
-    padding-top: 50px;
-    text-align: center;
     color: #34547A;
+    vertical-align: middle;
+    width: 100%;
  }
 .nav-item a {
     color: black;
@@ -37,14 +49,15 @@
 color: #34547A;
 }
 .name {
-text-align: right;
-padding: 142px 400px 0px 400px;
+text-align: left;
+padding: 142px 100px 0px 600px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 48px;
 line-height: 79px;
 color: #000000;
+width: 100%;
 }
 .text {
 padding: 0px 100px 0px 600px;
@@ -54,9 +67,15 @@ font-weight: normal;
 font-size: 16px;
 line-height: 26px;
 color: #727272;
+text-align: left;
+width: 100%;
 }
-.button a {
-    margin-left: 600px;
+.btn a {
+   text-align: center;
+    padding-left: 300px;
+    padding-right: 800px;
+    width: 100%;
+
     background: #34547A;
     border:none;
     display: inline-block;
@@ -72,7 +91,7 @@ color: #727272;
     color: #FFFFFF;
 }
  h2 {  
-     padding-top: 290px;
+     padding-top: 90px;
     padding: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
@@ -84,7 +103,7 @@ color: #727272;
 }
 .summary {
     padding: auto;
-    padding-top: 50px;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
