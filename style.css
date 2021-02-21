@@ -1,7 +1,10 @@
 html, body {
 	margin: 0;
 	padding: 0;
+}
+.bloc-one {
     background:  #EEEFF1;
+    width: 100%;
 }
 * {
     box-sizing: border-box;
@@ -19,29 +22,34 @@ html, body {
 }
    
 .nav-item {
-    margin-right: 100px;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 0%;
     display: inline-block;
-    padding-left: 30px;
-    padding-top: 50px;
-    padding-right: 5px;
+    padding-left: 3%;
+    padding-top: 0%;
+    padding-right: 0%;
     padding-bottom: 0%;
    
  }
  .logo {
-    width: 100%;
-    padding-left: 80px;
-    padding-top: 0px;
-    padding-right: 10px;
+    
+    padding-top: 10%;
+    padding-right: 3%;
     padding-bottom: 0%;
+    margin-left: 10%;
+    margin-top: 0%;
+    margin-right: 10%;
+    margin-bottom: 0%;
     background:  #EEEFF1;
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 38px;
-    color: #34547A;
-     
+    color: #34547A;   
  }
+
 .nav-item a {
     color: black;
     text-decoration: none;
@@ -52,11 +60,14 @@ html, body {
     color: #34547A;
 }
 
-.name {
-    margin-left: 50px;
-    margin-right: 100px;
+h1 {
+    margin-left: 55%;
+    margin-right: 5%;
     text-align: left;
-    padding: 142px 100px 0px 600px;
+    padding-left: 5%;
+    padding-top: 20%;
+    padding-right: 2%;
+    padding-bottom: 0%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -65,10 +76,10 @@ html, body {
     color: #000000;
 }
 
-.text {
-    margin-left: 50px;
-    margin-right: 100px;
-    padding: 0px 100px 0px 600px;
+p {
+    width: 100%;
+   
+    text-align: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -77,16 +88,22 @@ html, body {
     color: #727272;
     text-align: left;
 }
+.fig {
+    float:left;
+    padding-right: 10%;
+    margin-left: 20%;
+}
+    
 
 .btn {
-   margin-left: 700px;
-   margin-right: 100px;
+   margin-left: 70%;
+   margin-right: 10%;
    margin-bottom: 70px;
-   margin-top: 50px;
+   margin-top: 4%;
    background: #34547A;
    border:none;
    display: inline-block;
-   padding:15px 32px;
+   padding:2% 5%;
    text-decoration: none;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    font-style: normal;
@@ -99,7 +116,7 @@ html, body {
 }
 
  h2 {  
-    padding-top: 90px;
+    padding-top: 7%;
     padding: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
@@ -109,14 +126,18 @@ html, body {
     text-align: center;
     color: #000000;
 }
-.fill  {
+
+.bloc-two  {
     background: #F9F9F9;
     width: 100%;
 }
 
-.summary {
-    padding: auto;
-    padding-bottom: 50px;
+p.summary  {
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 8%;
+    margin-top: 5%;
+   text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -126,19 +147,23 @@ html, body {
     color: #727272;
 }
 
-.num {
-    background: #34547A;
-    width: 100%;
+.bloc-three {
+    background-color: #34547A;
+    width: 100%; 
 }
 
 .number-item {   
+    
     display: inline-block;
     list-style: none;
-    margin-bottom: 0px;
-    margin-left: 120px; 
-    margin-right: 50px;
-    margin-top: 150px;
-    text-align: center;
+    margin-bottom: 0%;
+    margin-left:  4.5%; 
+    margin-right: 2%;
+    margin-top: 10%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+    padding-right: 1%;
+    padding-left: 1%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -147,18 +172,228 @@ html, body {
     color: #FFFFFF;
 }
 
-.word-item {  
-    display: inline-block;
-    margin-left: 120px; 
-    margin-right: 15px;
-    margin-top: 0px;
-    margin-bottom: 150px;
-    list-style: none;
+.bloc-four {
+    background: #E5E5E5;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 14%;
+    padding-right: 0%;
+    padding-left: 0%;
+
+}
+.photo {
+    
+    float: right; 
+    margin-top: 10%;
+    margin-bottom: 30%;
+    margin-left: 8%;
+    margin-right: 12%;
+    width: 30%; 
+    height: 21%;
+
+ }
+
+ .forms-heading {
+  
+     color: black;
+     font-size: 32px;
+     text-align: left;
+     margin-top: 8%;
+     margin-right: 0%;
+     margin-left: 18%;
+     margin-bottom: 2%;
+ }
+ 
+  .forms {
+    
+    background-color: #F9F9F9;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-right: 0%;
+    border-bottom-color: #34547A;
+    border-top-color: #F9F9F9;
+    border-left-color: #F9F9F9;
+    border-right-color: #F9F9F9;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    padding-right: 10%;
+    padding-top: 0px;
+    padding-bottom: 2%;    
+  }
+
+  .bloc-five  {
+    width: 100%;
+    background:#cecfcf;
+    padding-bottom: 1%;
+    padding-top: 0.05%;
+}
+
+.description-text  { 
+    background-color: #cecfcf;
+    margin-right: 0%;
+    margin-left: 34%;
+    margin-top: 2%;
+    padding-bottom: 1%;   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description-text-about {
+    background-color: #cecfcf;
+    margin-left: 15%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    float: top;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    color: #FFFFFF;
+    text-align: center;
+    color: #727272;
 }
+
+.pic {
+    position:relative; 
+}
+
+.img-one { 
+    position:relative; 
+    margin-bottom: 15%;
+    margin-left: 8% ;
+    margin-top: 0%;
+}
+
+.img-two { 
+    position:absolute; 
+    top:37%;
+    right:46%;
+      
+}
+
+.flex {
+    background: #F9F9F9;
+    width: 100%;
+    height: 9%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    gap: 1rem;
+    flex-direction: column;
+
+ }
+ .flex-logo {
+    margin-top: 10%;
+    width: 100%;
+    height: 15%;
+    display: flex;
+   gap: 5rem;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8%;
+    margin-bottom: 10%;
+ }
+
+ .bloc-six {
+     background-color: #EEEFF1;
+     width: 100%;
+    
+ }
+ .name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-top: 3%;
+    margin-bottom: 3%;
+ }
+ .declaration {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 7%;    
+ }
+
+
+.form-row { 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem; 
+   
+    }  
+textarea {
+        margin-top: 3%;
+        margin-left: 33%;
+    }
+
+.submit {
+    background: #34547A;
+    color: #FFFFFF;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 70px;
+    margin-top: 4%;
+    border:none;
+    display: inline-block;
+    padding:2% 5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+ .bloc-seven {
+    width: 100%;
+    background: #34547A;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap:2rem;
+    padding-top: 4%;
+    padding-right: 10%;
+    
+     
+ }
+ 
+ .signature-one {
+     margin-top: 0%;
+    margin-left: 15%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+ }
+
+ .signature-two {
+     margin-top: 0%;
+     margin-right: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+ }
+ 
