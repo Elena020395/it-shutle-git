@@ -1,30 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Задание 4</title>
 </head>
 <body>
-    <header class="head">
-<p class="logo">SH<b>O</b>PNO</p>
-<div class="menu">
-    <img src="img/Menue.svg" alt="меню">
-</div>
+    <div class="wrapper">
 
-<h1>Say Hello to <mark>SHOPNO!</mark><br><mark>Agency </mark>CORPORATE SHOPNO Theme</h1>
+<header class="header">
+<a href="" class="header__logo">SH<b>O</b>PNO</a>
+<a href="" class="header__menu"><img src="img/Menue.svg" alt="меню"></a>
+</header>
+
+<main class="main">
+    
+<h1 class="content__title">Say Hello to <mark>SHOPNO!</mark><br><mark>Agency </mark>CORPORATE SHOPNO Theme</h1>
 <button class="btn">CONTACT US</button>
 
 <div class="icon">
-        <img src="img/glass.jpg" alt="icon">
+    <img src="img/glass.jpg" alt="icon">
 </div>
-</header>
+    <h2 class="content__title">ABOUT US</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h3 class="content-name">We Actually Do amazing works </h3>
+            <p>A visual approach is an approach to a runway at an airport 
+            conducted under instrument flight rules. The pilot must at all times have either the
+            airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. 
+            The pilot must at all times.</p>
+            <p>Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
+        <h3 class="content-name">Why we are the great? </h3>
+            <p>A visual approach is an approach to a runway at an airport 
+            conducted under instrument flight rules.
+            The preceding aircraft in approach correct sight.</p>
+    </div> 
+</div>
 
+<div class="content__slider">
+    <input type="radio" name="slide-nav" id="slide-1" checked>
+    <input type="radio" name="slide-nav" id="slide-2">
+    <input type="radio" name="slide-nav" id="slide-3">
+    <input type="radio" name="slide-nav" id="slide-4">
 
+    <div class="slider-nav">
+<label for="slide-1" class="slider-nav__item"></label>
+<label for="slide-2" class="slider-nav__item"></label>
+<label for="slide-3" class="slider-nav__item"></label>
+<label for="slide-4" class="slider-nav__item"></label>
+    </div>
+    <div class="slider-container">
+    <figure class="slider-slide" id="slide-img-1">
+        <img src="img/img-9.png" alt=" " class="slider-image">
+       <!-- <figcation> no</figcation>-->
+    </figure>
 
+       <figure class="slider-slide" id="slide-img-2">
+       <img src="img/griego4_1x.png" alt=" " class="slider-image">
+    </figure>
+
+       <figure class="slider-slide" id="slide-img-3">
+       <img src="img/bottle.png" alt=" " class="slider-image">
+    </figure>
+
+       <figure class="slider-slide" id="slide-img-4">
+       <img src="img/griego3_1x.png" alt=" " class="slider-image">
+    </figure>
+</div>
+</div>
+
+<div class="content__gallery gallery">
+    <h2 class="gallery__title">Featured works</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="gallery__items">
+        <div class="gallery__item">
+            <img src="img/ice-cream.png" alt="картинка">
+        </div>
+        <div class="gallery__item">
+            <img src="img/box.png" alt="картинка">
+        </div>
+        <div class="gallery__item">
+            <img src="img/bottle.png" alt="картинка">
+        </div>
+        <div class="gallery__item">
+            <img src="img/book.png" alt="картинка">
+        </div>
+        <div class="gallery__item">
+            <img src="img/nine.png" alt="картинка" >
+        </div>
+        <div class="gallery__item">
+            <img src="img/flower.png" alt="картинка">
+        </div>
+    </div>
+</div>
+<div class="services">
+    <h2 class="name">Our services</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+        <ul class="services-grid">
+            <li class="services-grid__item"> <img src=""></li>
+            <li class="services-grid__item"><img src=""></li>
+            <li class="services-grid__item"><img src=""></li>
+            <li class="services-grid__item"><img src=""></li>
+            <li class="services-grid__item"><img src=""></li>
+            <li class="services-grid__item"><img src=""></li>
+          </ul>
+    </div>
+    <div class="team">
+        <h2 class="name">Small team</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="photo-grid">
+            <img src="img/team_3.png">
+            <img src="img/3.png">
+            <img src="img/team_1.png">
+            <img src="img/team_2.png">
+            <img src="img/3.png" >
+            <img src="img/team_1.png">
+        </div>
+        </div>
+    </main>
+<footer class="footer"></footer>
+</div>
 </body>
 </html>
