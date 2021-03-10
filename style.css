@@ -3,34 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }  
-.wrapper {
-   width: 100%;
-}
-
 b {
     color: #7ae3db;
     font-size: 20px;
 }
-
-
-h1 {
-    
-    text-transform: uppercase;
+p {
     text-align: center;
+    text-transform: uppercase;
+    padding: 1%;
+    grid-column: 2/4; 
 }
-
 mark {
     background-color: rgb(171, 234, 236);
 }
-
-.btn {
-    
+.wrapper {
+   width: 100%;
+   display: grid;
+   grid-template: minmax(200px, auto) 1fr minmax(100px, auto) / 1fr;
+   grid-template-areas:
+   "header"
+   "main"
+   "footer";
 }
 
-.btn:hover {
-    cursor: pointer;
-    background-color: #71f6eb;
+
+.footer {
+    background-color: antiquewhite;
+    grid-area: footer;
 }
-.photo-grid img:hover {
-    opacity: 0.25;
-}
+
+
+
+
+
+
+
+
+

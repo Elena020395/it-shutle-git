@@ -1,0 +1,42 @@
+.header {
+    background-color: aliceblue;
+    grid-area: header;
+    padding: 5%;
+    display: grid;
+    grid-template: 1fr/1fr minmax(auto, 20%) minmax(auto, 80%) 1fr;
+    grid-gap: 10rem;
+}
+.header-logo {
+    border: 2px solid black;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    grid-column: 2/3;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-menu {
+    grid-column: 4/5;
+}
+.header-title {
+    grid-column: 2/5;
+    text-transform: uppercase;
+    text-align: center;
+}
+.icon {
+    grid-column: 4/5;
+}
+.btn {
+    width: 80%;
+    height: 30%;
+    text-align: center;  
+    grid-column: 3;
+    margin-left: 20%;
+    font-size: 24px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #71f6eb;
+}
