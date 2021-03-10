@@ -1,0 +1,113 @@
+.content {
+    grid-area: main;
+    display: grid;
+    grid-template: 1fr/1fr minmax(auto, 70%) minmax(auto, 30%) 1fr;
+    grid-gap: 2rem;
+    background-color: white;
+    padding: 1%;
+}
+.content-title {
+    grid-column: 2/4;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content-name {
+    grid-column: 3/4;
+}
+
+.content-text {
+    padding: 0%;
+    grid-column: 3/4;
+    text-align: left;
+    text-transform: none;    
+}
+
+.content-gallery {
+    grid-column: 1/4;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.gallery-items {
+    display: grid;
+    gap: 3%;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+}
+.gallery-item {
+    position: relative;
+    padding: 0% 0% 100% 0%;
+}
+.gallery-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-item img:hover {
+    opacity: 0.25;
+}
+
+.content-services {
+    grid-column: 1/4;
+}
+.services-items {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr; 
+    grid-template-rows: repeat(3, minmax(25%, 1fr)); 
+    gap: 5rem;
+}
+.services-item {
+    position: relative;
+    padding: 0% 0% 50% 0%;
+}
+.services-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    
+.services-item:nth-child(odd) {
+    grid-column: 1 / 3;
+}
+.services-item:nth-child(5) {
+    grid-column: 1 / 2;
+    grid-row: 3 / -1;
+}
+.services-item:nth-child(6) {
+    grid-column: 2 / -1;
+    grid-row: 3 / -1;
+}
+  
+.content-team {
+    grid-column: 1/4;
+}
+.team-items {
+    display: grid;
+    gap: 3%;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+}
+.team-item {
+    position: relative;
+    padding: 0% 0% 100% 0%;
+}
+.team-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team-item img:hover {
+    opacity: 0.25;
+}
+.content-portfolio {
+    margin-top: 15%;
+    grid-column: 1/4;
+}
