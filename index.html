@@ -10,10 +10,10 @@
     <title>Diploma</title>
 </head>
 <body>
-        <div class="intro-container">            
+        <div class="container">            
             <header class="header">
                 <div class="header__logo">
-                    <img src="img/Logo.svg" alt="" >
+                    <a href="#"><img src="img/Logo.svg" alt="" ></a>
                 </div>
 
                 <div class="header__burger">
@@ -200,48 +200,47 @@
 <div class="content__pricing">
     <h2 class="content__testimonials-title">Pricing</h2>
     <p class="content__testimonials-text">Most calendars are designed for teams.<br> Slate is designed for freelancers</p>
-    <div class="pricing-style">
-    <div class="content__pricing-style">
-<h3 class="content__pricing-name">Free</h3>
-<p class="content__pricing-text">Organize across all apps by hand </p>
-<div class="pricing"> 
-    <h2>0</h2>
-    <div>
-         <h3  class="pricing-dol">$</h3>
-         <h4  class="pricing-text">Per Month</h4>
-
-    </div> 
-</div>
-<button class="pricing-btn">Order Now</button>
-</div>
-<div class="content__pricing-style">
-    <h3 class="content__pricing-name">Standart</h3>
-    <p class="content__pricing-text">Organize across all apps by hand </p>
-    <div class="pricing"> 
-        <h2>10</h2>
-        <div>
-             <h3  class="pricing-dol">$</h3>
-             <h4  class="pricing-text">Per Month</h4>
-
-        </div> 
-    </div>
-    <button class="pricing-btn">Order Now</button>
-</div>
-<div class="content__pricing-contrast">
-    <h3 class="contrast-name">Business</h3>
-    <p class="contrast-text">Organize across all apps by hand </p>
-    <div class="pricing"> 
-    <h2>99</h2>
-        <div>
-             <h3  class="pricing-dol">$</h3>
-             <h5  class="pricing-text">Per Month</h5>
     
-        </div> 
+    <div class="pricing">
+        <div class="pricing-block">
+            <h3>Free</h3>
+            <p>Organize across all apps by hand</p>
+            <div class= "cost">
+                <p class="cost cost-item">0</p>
+                <div class="cost-dol">
+                    <p>$ <br>Per Month</p>
+                </div>
+            </div>
+    <button class="pricing-btn">Order Now</button>
+        </div>
+    
+    
+        <div class="pricing-block">
+            <h3>Standart</h3>
+            <p>Organize across all apps by hand</p>
+            <div class="cost">
+                <p class="cost cost-item">10</p>
+                <div class="cost-dol">
+                    <p>$ <br>Per Month</p>
+                </div>
+            </div>
+    <button class="pricing-btn">Order Now</button>
+        </div>
+    
+        <div class="pricing-block">
+            <h3>Business</h3>
+            <p>Organize across all apps by hand</p>
+            <div class="cost">
+                <p class="cost-item">99</p>
+                <div class="cost-dol">
+                    <p>$ <br>Per Month</p>
+                </div>
+            </div>
+    <button class="pricing-btn">Order Now</button>
     </div>
-    <button class="contrast-btn">Order Now</button>
 </div>
 </div>
-</div>
+
     <div class="content__contact">
         <h2 class="contact-title">Contact Us</h2>
         <p class="contact-text">Most calendars are designed for teams.<br> Slate is designed for freelancers</p>
@@ -251,14 +250,14 @@
             
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your E-mail"required>
-            <textarea placeholder="Your Message..." rows="3"></textarea>
-            <input type="submit" value="Send">
+            <textarea placeholder="Your Message..." rows="7" ></textarea>
+            <button class="submit">Send</button>
         </fieldset>
            
                 <div class="content__adress">
                         <div class="adress-icon">
-                            <img src="./img/bx_bx-map.svg">
-                             6386 Spring St undefined Anchorage,<br> Georgia 12473 United States
+                            
+                             <p><img src="./img/bx_bx-map.svg">6386 Spring St undefined<br> Anchorage, Georgia 12473 United States</p>
                             </div>
                        
                         <div class="adress-icon">
@@ -272,9 +271,13 @@
                         </div>  
                     
                     <div class="adress-social">
-                    <img src="./img/ant-design_twitter-outlined.svg">
-                    <img src="./img/ant-design_facebook-filled.svg">
-                    <img src="./img/ant-design_linkedin-filled.svg">
+                        <a href="#"><img src="./img/ant-design_twitter-outlined.svg"></a>
+                    </div>
+                        <div class="adress-social">
+                        <a href="#"> <img src="./img/ant-design_facebook-filled.svg"></a>
+                    </div>
+                        <div class="adress-social">
+                        <a href="#"><img src="./img/ant-design_linkedin-filled.svg"></a>
                     </div>
             </div>
     </div>
@@ -305,25 +308,32 @@
     </div>
     <div class="footer__adress">
         
-        <div class="footer__icon">
-            <img src="./img/bx_bx-map.svg">
-             6386 Spring St undefined Anchorage,<br> Georgia 12473 United States
-            </div>
+        <div class="footer-icon">
+                            
+            <p><img src="./img/bx_bx-map.svg">6386 Spring St undefined<br> Anchorage, Georgia 12473 United States</p>
+           </div>
+      
+       <div class="footer-icon">
+           <img src="./img/ic_baseline-phone-android.svg">
+           <a href="#">(843) 555-0130</a>
+       </div>
        
-        <div class="footer__icon">
-            <img src="./img/ic_baseline-phone-android.svg">
-            <a href="#">(843) 555-0130</a>
-        </div>
-        
-        <div class="footer__icon">
-            <img src="./img/ant-design_mail-outlined.svg">
-            <a href="#">willie.jennings@example.com</a>
-        </div>  
+       <div class="footer-icon">
+           <img src="./img/ant-design_mail-outlined.svg">
+           <a href="#">willie.jennings@example.com</a>
+       </div>  
+    
     
     <div class="footer__social">
-    <img src="./img/ant-design_twitter-outlined.svg">
-    <img src="./img/ant-design_facebook-filled.svg">
-    <img src="./img/ant-design_linkedin-filled.svg">
+        <a href="#"><img src="./img/ant-design_twitter-outlined.svg"></a>
+    </div>
+        <div class="footer__social">
+        <a href="#"> <img src="./img/ant-design_facebook-filled.svg"></a>
+    </div>
+        <div class="footer__social">
+        <a href="#"><img src="./img/ant-design_linkedin-filled.svg"></a>
+    </div>
+</div>
 </div>
 </div>
 

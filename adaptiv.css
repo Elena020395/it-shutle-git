@@ -1,16 +1,13 @@
 .header__burger {
     display: none;
 }
-@media(max-width: 991px) {
+@media screen and (max-width: 480px) {
     .header__nav{
         display: none;
     }
     .header__btn {
         display: none;
     }
-}
-
-@media (max-width: 991px) {
 
     .header__burger {
         display: block;
@@ -42,8 +39,7 @@
     .header__burger::after{
         bottom: 0;
     }
-}
-@media (max-width: 991px) {
+
     .content__items {
     display: flex;
     flex-direction: column;
@@ -51,8 +47,7 @@
     align-items: center;
     margin-top: -8%;
   }
-}
-@media (max-width: 991px) {
+
     .content__btn {
     display: flex;
     flex-direction: column;
@@ -61,8 +56,7 @@
     margin-top: -30%;
   }
   
-}
-@media (max-width: 1199px) {
+
     .btn-input {
         max-width: 155px;
         height: 44px;
@@ -73,8 +67,7 @@
         height: 44px;
         border-radius: 25px;
     }
-}
-@media (max-width: 991px) {
+
    
     .content__partners {
         display: flex;
@@ -90,8 +83,7 @@
         flex-direction: column;
         margin-left: 22%;
     }
-}
-@media (max-width: 991px) {
+
     .content__testimonials {
         display: flex;
         flex-direction: column;
@@ -105,22 +97,23 @@
         align-items: center;
         margin-left: 12%;
     }
-}
-@media (max-width: 991px) {
-    .pricing-style {
+ 
+    .pricing,
+    .content__pricing {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
+        margin-bottom: 5%;
     }
-}
-@media (max-width: 991px) {
+    .pricing-block {
+        width: 70%;  
+    }
+
     .content__contact {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 0.2rem;
        
     }
     .content-inform {
@@ -128,15 +121,38 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-       margin-left: -25%;
+       margin-left: -55%;
+       
     }
-}
-@media (max-width: 991px) {
+    .submit {
+        padding: 2% 6%;
+        margin-top: 1%;
+        margin-right: 45%;
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        
+        margin-left: 80%;
+    }
+    .adress-icon,
+    .adress-icon a,
+    .adress-social  {
+        margin-left: 30%;
+        margin-right: -30%;
+        
+    }
+
     .footer {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
-       
+    }
+    .footer__map {
+        width: 2vh;
+    }
+    .footer__adress {
+       margin-left: 15%;
     }
 }
